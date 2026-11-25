@@ -273,7 +273,7 @@ const the8BureauFeatures: The8BureauFeature[] = [
       en: "Set a point on a map, a radius in km and a category, and extract LEADS.",
     },
     link: {
-      href: "https://github.com/tpportfolio/maps-lead-extractor",
+      href: "https://github.com/tomasportfolio/maps-lead-extractor",
       label: { es: "Código abierto en GitHub", en: "Open source on GitHub" },
     },
   },

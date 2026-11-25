@@ -1,7 +1,7 @@
 # Project rules
 
 Personal portfolio of Tomás Peró: https://tomaspero.vercel.app
-Production is `main` on the `prod` remote (tpportfolio/tpportfolio). Vercel deploys only from
+Production is `main` on the `prod` remote (tomasportfolio/tpportfolio). Vercel deploys only from
 `main` (~90 s after a push) and builds no previews of other branches.
 
 Local state and tasks (outside the repo, never committed):

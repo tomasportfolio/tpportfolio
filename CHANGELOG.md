@@ -1,5 +1,12 @@
 # Changelog
 
+## r54 (2026-11-24) — New GitHub account name
+Branch `release/r54-repo-owner`. Builds on r53. The GitHub account `tpportfolio` is now `tomasportfolio`; the old name is free, so links that relied on the redirect are updated.
+
+- Maps Lead Extractor: the "Open source on GitHub" link in `/work/ai-experiments` and the ES/EN text in `agents.md` / `agents.txt` / `llms.txt` (`lib/agents.ts`) now point to `https://github.com/tomasportfolio/maps-lead-extractor`. The link is the same in both languages; Clippy's knowledge base did not mention it.
+- `CLAUDE.md`: the production repository is `tomasportfolio/tpportfolio`.
+- Older entries in this changelog keep the old name: they describe what was true then.
+
 ## r53 (2026-11-24) — Project documentation
 Branch `release/r53-docs`. Builds on r52. Documentation only: no change to the site, content, copy or looks, so nothing changes in ES/EN, `agents.md` or Clippy's knowledge base.
 

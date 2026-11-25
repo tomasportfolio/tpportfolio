@@ -2,14 +2,14 @@
 
 Deploy: `tomaspero.vercel.app` (Vercel, from the `main` branch of this repository).
 
-## Current version: r53 (2026-11-24) — Project documentation
+## Current version: r54 (2026-11-24) — New GitHub account name
 
-Documentation only: no change to the site, its content or its looks.
+The GitHub account moved from `tpportfolio` to `tomasportfolio`. No change to the site's looks or copy.
 
-- **CLAUDE.md.** Project rules plus the stack, commands, where things live, how to promote to production and roll back, and known build traps.
-- **qa/PROGRESS.md.** Now only the QA log, with the r52 run added.
+- **Maps Lead Extractor.** The "Open source on GitHub" link (AI experiments) and `agents.md` / `llms.txt` point to `github.com/tomasportfolio/maps-lead-extractor`.
+- **CLAUDE.md.** Production repository: `tomasportfolio/tpportfolio`.
 
-Previous version: r52 (2026-11-10) — State you can address: language and AI filter in the URL.
+Previous version: r53 (2026-11-24) — Project documentation.
 
 Full detail in [`CHANGELOG.md`](CHANGELOG.md).
 
