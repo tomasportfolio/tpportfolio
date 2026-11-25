@@ -1,6 +1,6 @@
-# PROGRESS — QA antes de promover r36–r41
-Última actualización: 2026-10-22
-Etapa actual: 4 de 4 — r43 lista; falta el OK de Tomás para subir a `main`
+# PROGRESS — historial de QA (r42–r52)
+Última actualización: 2026-11-24
+Este archivo es solo el log de corridas de QA. El plan de cada versión y lo que falta hacer no se llevan acá.
 
 ## Hecho
 - [Etapa 1] Nivel 0 sobre r41 — rama `release/r42-qa`.
@@ -41,8 +41,8 @@ Etapa actual: 4 de 4 — r43 lista; falta el OK de Tomás para subir a `main`
 ## Bloqueos / dudas abiertas
 - Ninguno.
 
-## Próximo paso
-Con el OK de Tomás: backup de `main` y fast-forward a r43. Pendiente aparte: pasada de diseño (letra < 12px, botones < 44px, contraste) y Safari iOS real.
+## Corridas por versión
+- r43 promovida a `main` el 2026-10-22.
 - r44 (`release/r44-home-calma`, home más calma): `node run.mjs --label r44b --quick` → 0 errores, 22/22 interacciones (2026-10-23). En r45 Clippy vuelve a estar desde el arranque y la prueba de Clippy vuelve a la de r43.
 - r45 (`release/r45-home-ajustes`): `node run.mjs --label r45 --quick` → 0 errores, 22/22 interacciones, sin scroll lateral (2026-10-23).
 - r46 (`release/r46-years-auto`): años desde agosto 2007 en todo el sitio, tarjetas de la home 5% más chicas. `node run.mjs --label r46 --quick` → 0 errores, 22/22 (2026-10-23).
@@ -51,3 +51,4 @@ Con el OK de Tomás: backup de `main` y fast-forward a r43. Pendiente aparte: pa
 - r49 (`release/r49-spacing-cards`): menos espacio antes de PROJECT DATABASE y tarjetas -7% de alto (2026-10-23).
 - r50 (`release/r50-compact-home`): espacios más compactos alrededor de PROJECT DATABASE, tarjetas +2% ancho y -5% alto (2026-10-23).
 - r51 (`release/r51-no-role-home`): sin "GEN_MARKETER.exe" debajo del nombre en la home (2026-10-23).
+- r52 (`release/r52-site-state`): estado direccionable (`?lang=`, `?filter=`). `node run.mjs --label r52 --quick` → 34 cargas (390 y 1440, oscuro, ES), 0 errores de consola, 0 pedidos fallidos, sin scroll lateral, 22/22 interacciones (2026-11-10).

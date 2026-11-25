@@ -1,5 +1,11 @@
 # Changelog
 
+## r53 (2026-11-24) — Project documentation
+Branch `release/r53-docs`. Builds on r52. Documentation only: no change to the site, content, copy or looks, so nothing changes in ES/EN, `agents.md` or Clippy's knowledge base.
+
+- `CLAUDE.md` rewritten: the five rules plus the years-of-experience rule (`lib/career.ts`), Clippy on the free tier, archiving instead of deleting; the stack, the commands, where things live (including `lib/site-state.ts` and `qa/`), how to promote to production and roll back, and known build traps.
+- `qa/PROGRESS.md` is now only the QA log: the header no longer says r43 is waiting, the old "next step" is gone and the r52 run is added.
+
 ## r52 (2026-11-10) — State you can address: language and AI filter in the URL
 Branch `release/r52-site-state`. Builds on r51. No change to content, copy or looks.
 

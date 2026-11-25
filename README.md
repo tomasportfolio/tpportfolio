@@ -2,17 +2,14 @@
 
 Deploy: `tomaspero.vercel.app` (Vercel, from the `main` branch of this repository).
 
-## Current version: r52 (2026-11-10) — State you can address: language and AI filter in the URL
+## Current version: r53 (2026-11-24) — Project documentation
 
-What changed in this version (no change to content or looks):
+Documentation only: no change to the site, its content or its looks.
 
-- **Language.** `?lang=en` opens any page in English; the ES/EN choice is remembered; `<html lang>` follows it.
-- **AI experiments.** `?filter=imagen|video|audio` opens that view.
-- **Webapps.** They open in the visual mode you are browsing the site in.
-- **Code.** State names live in `lib/site-state.ts`; the assistant is an explicit state machine; unused components removed; QA loads no longer add to the visit counter.
-- **agents.md.** Only what helps a visiting agent.
+- **CLAUDE.md.** Project rules plus the stack, commands, where things live, how to promote to production and roll back, and known build traps.
+- **qa/PROGRESS.md.** Now only the QA log, with the r52 run added.
 
-Previous version: r51 (2026-10-23) — "GEN_MARKETER.exe" only in the sidebar.
+Previous version: r52 (2026-11-10) — State you can address: language and AI filter in the URL.
 
 Full detail in [`CHANGELOG.md`](CHANGELOG.md).
 
